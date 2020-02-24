@@ -1,0 +1,9 @@
+<view class="item" bind:tap="handleToggle">
+    <image src="{{data.coverImgUrl}}" class="img"></image>
+    <text class="title">{{data.name}}</text>
+    <view class="text">
+        <image class="text-img" src="/images/tab/p0.png">  
+        </image>
+        <text>{{data.playCount}}</text>
+    </view>
+</view>

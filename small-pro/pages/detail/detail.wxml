@@ -1,0 +1,7 @@
+<view class="container">
+        <image src="/images/logo.png" class="logo"/>
+        <text>
+            hello，七月
+        </text>
+        <view class="btn" bind:tap="handleToggle">开启小程序之旅</view>
+</view>

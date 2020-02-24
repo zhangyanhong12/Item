@@ -1,0 +1,24 @@
+<view class="container" >
+    <image src="{{item.imgSrc}}" class="img"></image>
+    <image class="music" 
+    bind:tap="handleMusic"
+    src=" {{isPlay?'/images/music/music-stop.png':'/images/music/music-start.png'}}"></image>
+        <view class="item">
+            <image class="item-img" src="{{item.avatar}}"></image>
+            <text class="name">知乎</text>
+            <text>发表于</text>
+            <text>{{item.dateTime}}</text>
+        </view>
+        <view class="content">
+            <text>{{item.title}}</text>
+            <image class="icon" src="{{isCollected?'/images/icon/collection.png':'/images/icon/collection-anti.png'}}" bind:tap="handleCollect" ></image>
+            <image class="content-icon" src="/images/icon/share-anti.png" bind:tap="share"></image>
+        </view>
+        <view class="last">
+            <view class="last-top">1.引言</view>
+            <view class="last-bottom">{{item. detail}}</view>
+        </view>
+</view>
+
+
+

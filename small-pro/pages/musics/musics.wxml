@@ -1,0 +1,4 @@
+<view class="flex" >
+    <music wx:for="{{playlists}}" data="{{item}}"></music>
+
+</view>

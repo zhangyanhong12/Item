@@ -1,0 +1,20 @@
+/* components/MovieItem/MovieItem.wxss */
+.img{
+    width: 200rpx;
+    height: 280rpx;
+    
+}
+.icon{
+    width: 35rpx;
+    height: 35rpx;
+}
+.item{
+    width: 200rpx;
+}
+.title{
+    font-size: 26rpx;
+}
+.rating{
+    font-size: 24rpx;
+    color:#DB2000;
+}

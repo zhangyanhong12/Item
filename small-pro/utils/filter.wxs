@@ -1,0 +1,27 @@
+function formatStar(value){
+    if(value){
+        var value = value.slice(0,1);
+        var arr=[]
+        for( var i =1;i<=5;i++){
+            if(i<=value){
+               arr.push(1)
+            }else{
+                arr.push(0)
+            }
+        }
+        return arr;
+    }
+
+}
+function format(v){
+    if(v){
+        if(v.length>6){
+            v = v.slice(0,6)+"..."
+        }
+        return v
+    }
+}
+module.exports={
+    formatStar:formatStar,
+    format:format
+}

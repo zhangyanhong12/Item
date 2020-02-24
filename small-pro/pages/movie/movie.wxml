@@ -1,0 +1,14 @@
+<!--pages/movie/movie.wxml-->
+<view class="item" wx:for="{{movies}}" wx:for-item="list" wx:key="list" >  
+    <view class="title">
+        <text>{{list.title}}</text>
+        <text class="more" data-title="{{list.subTitle}}" bind:tap="handleClick" data-ntitle="{{list.title}}">更多></text>
+    </view>
+    <view class="flex" >
+        <m-item wx:for="{{list.data}}" data="{{item}}" wx:key="data"></m-item>
+    </view>
+</view>
+
+
+
+

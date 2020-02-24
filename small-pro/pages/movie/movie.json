@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "m-item":"/components/MovieItem/MovieItem"
+  },
+  "navigationBarTitleText": "电影",
+  "navigationBarBackgroundColor": "#405F80"
+}

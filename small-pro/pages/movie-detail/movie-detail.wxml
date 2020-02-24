@@ -1,0 +1,3 @@
+<view class="flex" >
+    <m-item wx:for="{{subjects}}" data="{{item}}" wx:key="data"></m-item>
+</view>

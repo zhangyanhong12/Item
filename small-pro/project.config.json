@@ -1,0 +1,133 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": false,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"autoAudits": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.8.3",
+	"appid": "wx871d8918415a6004",
+	"projectname": "douban-small",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 10,
+			"list": [
+				{
+					"id": -1,
+					"name": "pages/detail/detail",
+					"pathName": "pages/detail/detail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/read/read",
+					"pathName": "pages/read/read",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/read-detail/read-detail",
+					"pathName": "pages/read-detail/read-detail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/movie/movie",
+					"pathName": "pages/movie/movie",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/movies/movies",
+					"pathName": "pages/movies/movies",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/movie/movie",
+					"pathName": "pages/movie/movie",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/my/my",
+					"pathName": "pages/my/my",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/music/music",
+					"pathName": "pages/music/music",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/music-detail/music-detail",
+					"pathName": "pages/music-detail/music-detail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/play/play",
+					"pathName": "pages/play/play",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/read-detail/read-detail",
+					"pathName": "pages/read-detail/read-detail",
+					"query": "id=2",
+					"scene": null
+				}
+			]
+		}
+	}
+}

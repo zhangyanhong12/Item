@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "m-item":"/components/MovieItem/MovieItem"
+  },
+  "navigationBarBackgroundColor": "#405F80"
+}
